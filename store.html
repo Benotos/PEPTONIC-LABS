@@ -91,11 +91,11 @@
             <h2 class="text-sm tracking-[0.2em] text-gray-500 font-oswald uppercase">RESEARCH CATALOG</h2>
             
             <div class="flex space-x-2 overflow-x-auto no-scrollbar pb-2 md:pb-0 w-full md:w-auto">
-                <button onclick="filterProducts('all', this)" class="filter-btn filter-active border border-[#1e2936] px-4 py-1.5 rounded-full text-[0.65rem] font-bold tracking-widest uppercase transition whitespace-nowrap">All Products</button>
-                <button onclick="filterProducts('fat-loss', this)" class="filter-btn text-gray-400 hover:text-white border border-[#1e2936] bg-[#111418] hover:bg-[#1a1c20] px-4 py-1.5 rounded-full text-[0.65rem] font-bold tracking-widest uppercase transition whitespace-nowrap">Fat Loss</button>
-                <button onclick="filterProducts('healing', this)" class="filter-btn text-gray-400 hover:text-white border border-[#1e2936] bg-[#111418] hover:bg-[#1a1c20] px-4 py-1.5 rounded-full text-[0.65rem] font-bold tracking-widest uppercase transition whitespace-nowrap">Healing / Recovery</button>
-                <button onclick="filterProducts('muscle', this)" class="filter-btn text-gray-400 hover:text-white border border-[#1e2936] bg-[#111418] hover:bg-[#1a1c20] px-4 py-1.5 rounded-full text-[0.65rem] font-bold tracking-widest uppercase transition whitespace-nowrap">Muscle Building</button>
-                <button onclick="filterProducts('tanning', this)" class="filter-btn text-gray-400 hover:text-white border border-[#1e2936] bg-[#111418] hover:bg-[#1a1c20] px-4 py-1.5 rounded-full text-[0.65rem] font-bold tracking-widest uppercase transition whitespace-nowrap">Tanning</button>
+                <button onclick="filterProducts('all', this)" class="filter-btn filter-active border border-[#1e2936] px-6 py-2.5 rounded-full text-xs font-bold tracking-widest uppercase transition whitespace-nowrap">All Products</button>
+                <button onclick="filterProducts('fat-loss', this)" class="filter-btn text-gray-400 hover:text-white border border-[#1e2936] bg-[#111418] hover:bg-[#1a1c20] px-6 py-2.5 rounded-full text-xs font-bold tracking-widest uppercase transition whitespace-nowrap">Fat Loss</button>
+                <button onclick="filterProducts('healing', this)" class="filter-btn text-gray-400 hover:text-white border border-[#1e2936] bg-[#111418] hover:bg-[#1a1c20] px-6 py-2.5 rounded-full text-xs font-bold tracking-widest uppercase transition whitespace-nowrap">Healing / Recovery</button>
+                <button onclick="filterProducts('muscle', this)" class="filter-btn text-gray-400 hover:text-white border border-[#1e2936] bg-[#111418] hover:bg-[#1a1c20] px-6 py-2.5 rounded-full text-xs font-bold tracking-widest uppercase transition whitespace-nowrap">Muscle Building</button>
+                <button onclick="filterProducts('tanning', this)" class="filter-btn text-gray-400 hover:text-white border border-[#1e2936] bg-[#111418] hover:bg-[#1a1c20] px-6 py-2.5 rounded-full text-xs font-bold tracking-widest uppercase transition whitespace-nowrap">Tanning</button>
             </div>
         </div>
 
@@ -128,12 +128,12 @@
 
             <div class="product-card flex flex-col md:flex-row items-center justify-between border-b border-[#1a1c20] pb-8 mb-8" data-category="fat-loss">
                 <div class="flex items-start space-x-6 w-full md:w-auto mb-6 md:mb-0">
-                    <img src="retatrutide.jpg" alt="Retatrutide 40mg" class="w-24 h-24 object-cover border border-[#1e2936] rounded shrink-0 mt-1 opacity-70">
+                    <img src="retatrutide.jpg" alt="Retatrutide 40mg" class="w-24 h-24 object-cover border border-[#1e2936] rounded shrink-0 mt-1">
                     <div>
                         <h3 class="text-xl font-oswald tracking-wide mb-1">Retatrutide 40mg</h3>
                         <div class="flex gap-2 mb-2 items-center">
                             <span class="text-[0.6rem] font-bold tracking-widest uppercase text-accent-blue block">Fat Loss</span>
-                            <span class="text-[0.55rem] font-bold tracking-widest uppercase text-red-500 border border-red-500/50 px-1.5 py-0.5 rounded bg-red-500/10">CURRENTLY OUT OF STOCK</span>
+                            <span class="text-[0.55rem] font-bold tracking-widest uppercase text-green-400 border border-green-400/50 px-1.5 py-0.5 rounded bg-green-400/10">AVAILABLE FOR PRE-ORDER</span>
                         </div>
                         <p class="text-gray-400 text-xs leading-relaxed max-w-md mb-3">Double-strength high-purity triple agonist compound for advanced analytical research.</p>
                         <p class="font-bold text-lg accent-blue">£180</p>
@@ -180,7 +180,7 @@
                         <h3 class="text-xl font-oswald tracking-wide mb-1">GHK-Cu 50mg Bottle</h3>
                         <div class="flex gap-2 mb-2 items-center">
                             <span class="text-[0.6rem] font-bold tracking-widest uppercase text-accent-blue block">Healing / Recovery</span>
-                            <span class="text-[0.55rem] font-bold tracking-widest uppercase text-red-500 border border-red-500/50 px-1.5 py-0.5 rounded bg-red-500/10">CURRENTLY OUT OF STOCK</span>
+                            <span class="text-[0.55rem] font-bold tracking-widest uppercase text-green-400 border border-green-400/50 px-1.5 py-0.5 rounded bg-green-400/10">AVAILABLE FOR PRE-ORDER</span>
                         </div>
                         <p class="text-gray-400 text-xs leading-relaxed max-w-md mb-3">Copper-binding tripeptide in a single 50mg presentation. Researched extensively for skin regeneration and tissue remodelling.</p>
                         <p class="font-bold text-lg accent-blue">£30</p>
@@ -230,7 +230,7 @@
                         <h3 class="text-xl font-oswald tracking-wide mb-1">Melanotan-2 (MT-2) 10mg</h3>
                         <div class="flex gap-2 mb-2 items-center">
                             <span class="text-[0.6rem] font-bold tracking-widest uppercase text-accent-blue block">Tanning</span>
-                            <span class="text-[0.55rem] font-bold tracking-widest uppercase text-red-500 border border-red-500/50 px-1.5 py-0.5 rounded bg-red-500/10">CURRENTLY OUT OF STOCK</span>
+                            <span class="text-[0.55rem] font-bold tracking-widest uppercase text-green-400 border border-green-400/50 px-1.5 py-0.5 rounded bg-green-400/10">AVAILABLE FOR PRE-ORDER</span>
                         </div>
                         <p class="text-gray-400 text-xs leading-relaxed max-w-md mb-3">Synthetic analogue of the peptide hormone α-melanocyte-stimulating hormone (α-MSH) used in melanogenesis research.</p>
                         <p class="font-bold text-lg accent-blue">£30</p>
@@ -248,14 +248,14 @@
                 </div>
             </div>
 
-            <div class="product-card flex flex-col md:flex-row items-center justify-between border-b border-[#1a1c20] pb-8 mb-8" data-category="fat-loss">
+            <div class="product-card flex flex-col md:flex-row items-center justify-between border-b border-[#1a1c20] pb-8 mb-8" data-category="muscle">
                 <div class="flex items-start space-x-6 w-full md:w-auto mb-6 md:mb-0">
                     <div class="w-24 h-16 bg-[#151c24] border border-[#1e2936] rounded flex items-center justify-center text-gray-600 text-xs shrink-0 mt-1 opacity-70">IMG</div>
                     <div>
                         <h3 class="text-xl font-oswald tracking-wide mb-1">Tesamorelin 10mg</h3>
                         <div class="flex gap-2 mb-2 items-center">
-                            <span class="text-[0.6rem] font-bold tracking-widest uppercase text-accent-blue block">Fat Loss</span>
-                            <span class="text-[0.55rem] font-bold tracking-widest uppercase text-red-500 border border-red-500/50 px-1.5 py-0.5 rounded bg-red-500/10">CURRENTLY OUT OF STOCK</span>
+                            <span class="text-[0.6rem] font-bold tracking-widest uppercase text-accent-blue block">Muscle Building</span>
+                            <span class="text-[0.55rem] font-bold tracking-widest uppercase text-green-400 border border-green-400/50 px-1.5 py-0.5 rounded bg-green-400/10">AVAILABLE FOR PRE-ORDER</span>
                         </div>
                         <p class="text-gray-400 text-xs leading-relaxed max-w-md mb-3">Synthetic analogue of GHRH. Highly documented in clinical research for reducing visceral adipose tissue (visceral fat).</p>
                         <p class="font-bold text-lg accent-blue">£50</p>
@@ -280,7 +280,7 @@
                         <h3 class="text-xl font-oswald tracking-wide mb-1">MOTS-c 10mg</h3>
                         <div class="flex gap-2 mb-2 items-center">
                             <span class="text-[0.6rem] font-bold tracking-widest uppercase text-accent-blue block">Fat Loss / Energy</span>
-                            <span class="text-[0.55rem] font-bold tracking-widest uppercase text-red-500 border border-red-500/50 px-1.5 py-0.5 rounded bg-red-500/10">CURRENTLY OUT OF STOCK</span>
+                            <span class="text-[0.55rem] font-bold tracking-widest uppercase text-green-400 border border-green-400/50 px-1.5 py-0.5 rounded bg-green-400/10">AVAILABLE FOR PRE-ORDER</span>
                         </div>
                         <p class="text-gray-400 text-xs leading-relaxed max-w-md mb-3">Mitochondrial-derived peptide known to promote metabolic homeostasis. Researched for mimicking the effects of exercise.</p>
                         <p class="font-bold text-lg accent-blue">£25</p>
@@ -350,6 +350,36 @@
                         <h3 class="text-xl font-oswald tracking-wide mb-1">CJC-1295</h3>
                         <span class="text-[0.6rem] font-bold tracking-widest uppercase text-accent-blue mb-2 block">Muscle Building</span>
                         <p class="text-gray-400 text-xs leading-relaxed max-w-md mb-3">Tetrasubstituted peptide analogue of GHRH. Researched for its ability to increase plasma GH and IGF-1 levels steadily.</p>
+                        <p class="font-bold text-lg text-gray-500 line-through">£TBA</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-end space-y-3 w-full md:w-auto">
+                    <button disabled class="bg-[#1a1c20] text-red-500 font-oswald px-6 py-2.5 text-sm tracking-widest rounded w-full md:w-auto cursor-not-allowed border border-[#2a3746]">OUT OF STOCK (RESTOCKING)</button>
+                </div>
+            </div>
+
+            <div class="product-card flex flex-col md:flex-row items-center justify-between border-b border-[#1a1c20] pb-8 mb-8 opacity-70" data-category="fat-loss">
+                <div class="flex items-start space-x-6 w-full md:w-auto mb-6 md:mb-0">
+                    <div class="w-24 h-16 bg-[#151c24] border border-[#1e2936] rounded flex items-center justify-center text-gray-600 text-xs shrink-0 mt-1">IMG</div>
+                    <div>
+                        <h3 class="text-xl font-oswald tracking-wide mb-1">Tesamorelin</h3>
+                        <span class="text-[0.6rem] font-bold tracking-widest uppercase text-accent-blue mb-2 block">Fat Loss</span>
+                        <p class="text-gray-400 text-xs leading-relaxed max-w-md mb-3">Synthetic analogue of GHRH. Highly documented in clinical research for reducing visceral adipose tissue (visceral fat).</p>
+                        <p class="font-bold text-lg text-gray-500 line-through">£TBA</p>
+                    </div>
+                </div>
+                <div class="flex flex-col items-end space-y-3 w-full md:w-auto">
+                    <button disabled class="bg-[#1a1c20] text-red-500 font-oswald px-6 py-2.5 text-sm tracking-widest rounded w-full md:w-auto cursor-not-allowed border border-[#2a3746]">OUT OF STOCK (RESTOCKING)</button>
+                </div>
+            </div>
+
+            <div class="product-card flex flex-col md:flex-row items-center justify-between border-b border-[#1a1c20] pb-8 mb-8 opacity-70" data-category="fat-loss">
+                <div class="flex items-start space-x-6 w-full md:w-auto mb-6 md:mb-0">
+                    <div class="w-24 h-16 bg-[#151c24] border border-[#1e2936] rounded flex items-center justify-center text-gray-600 text-xs shrink-0 mt-1">IMG</div>
+                    <div>
+                        <h3 class="text-xl font-oswald tracking-wide mb-1">MOTS-c</h3>
+                        <span class="text-[0.6rem] font-bold tracking-widest uppercase text-accent-blue mb-2 block">Fat Loss / Energy</span>
+                        <p class="text-gray-400 text-xs leading-relaxed max-w-md mb-3">Mitochondrial-derived peptide known to promote metabolic homeostasis. Researched for mimicking the effects of exercise.</p>
                         <p class="font-bold text-lg text-gray-500 line-through">£TBA</p>
                     </div>
                 </div>
